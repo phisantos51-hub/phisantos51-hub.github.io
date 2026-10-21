@@ -34,3 +34,31 @@
     lista.append(item);
   });
 })();
+
+// Monta os botões "Compartilhar no Google Sala de Aula" da área "Para professores":
+// um para o menu inteiro e um para cada jogo. Abrem numa nova aba.
+(function () {
+  const lista = document.getElementById("lista-compartilhar");
+  lista.textContent = "";
+
+  const itens = [{ nome: "Jogos do LED (menu inteiro)", link: ENDERECO_MENU }].concat(JOGOS);
+
+  itens.forEach(function (item) {
+    const li = document.createElement("li");
+
+    const botao = document.createElement("a");
+    botao.className = "botao-compartilhar";
+    botao.href = "https://classroom.google.com/share?url=" + encodeURIComponent(item.link);
+    botao.target = "_blank";
+    botao.rel = "noopener noreferrer";
+    botao.textContent = "Compartilhar no Google Sala de Aula: " + item.nome;
+
+    const aviso = document.createElement("span");
+    aviso.className = "so-leitor";
+    aviso.textContent = " (abre em nova aba)";
+
+    botao.append(aviso);
+    li.append(botao);
+    lista.append(li);
+  });
+})();

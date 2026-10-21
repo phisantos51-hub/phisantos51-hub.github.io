@@ -114,12 +114,65 @@ main {
 
 .rodape {
   text-align: center;
-  padding: 0.5rem 1rem 0.75rem;
+  width: 100%;
+  padding: 0.25rem 1rem 0.5rem;
   font-size: 1rem;
+  line-height: 1.3;
   color: var(--texto-suave);
 }
 
 .rodape p { margin: 0; }
+
+/* Área "Para professores": fechada por padrão, discreta, longe dos cartões. */
+.professores {
+  max-width: 960px;
+  margin: 0 auto 0.25rem;
+}
+
+.professores summary {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.1rem 0.75rem;
+  border: 2px solid #9ca3af;
+  font-size: 0.95rem;
+  border-radius: 999px;
+  color: var(--texto-suave);
+}
+
+.professores summary:hover { background: #ffffff; }
+
+.professores summary:focus-visible,
+.botao-compartilhar:focus-visible {
+  outline: 4px solid var(--foco);
+  outline-offset: 3px;
+}
+
+.professores[open] summary { margin-bottom: 0.5rem; }
+
+.professores-conteudo p { margin: 0 0 0.5rem; }
+
+.compartilhar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.botao-compartilhar {
+  display: inline-block;
+  padding: 0.4rem 0.75rem;
+  border: 2px solid #15803d;
+  border-radius: 10px;
+  background: #ffffff;
+  color: #14532d;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.botao-compartilhar:hover { background: #dcfce7; }
 
 /* Texto só para leitores de tela (NVDA). */
 .so-leitor {

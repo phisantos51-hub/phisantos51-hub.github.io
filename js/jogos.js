@@ -10,8 +10,14 @@
     cor:    a cor do cartão: "azul", "verde", "laranja", "roxo", "rosa" ou "vermelho";
     link:   o endereço do jogo.
 
+  O botão "Compartilhar no Google Sala de Aula" do jogo, na área
+  "Para professores" do rodapé, é criado sozinho a partir desta lista.
+
   A ordem da lista é a ordem dos cartões na tela.
 */
+// Endereço do próprio menu, usado no botão de compartilhar o menu inteiro.
+const ENDERECO_MENU = "https://phisantos51-hub.github.io/";
+
 const JOGOS = [
   {
     nome: "Robô Letrinha",
