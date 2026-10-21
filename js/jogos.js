@@ -46,5 +46,12 @@ const JOGOS = [
     icone: "⚽",
     cor: "roxo",
     link: "https://phisantos51-hub.github.io/craques-do-led/"
+  },
+  {
+    nome: "Robô Explorador",
+    frase: "Explore a natureza e responda perguntas de Ciências!",
+    icone: "🌱",
+    cor: "rosa",
+    link: "https://phisantos51-hub.github.io/robo-explorador/"
   }
 ];
