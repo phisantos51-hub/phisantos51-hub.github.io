@@ -10,8 +10,8 @@
     cor:    a cor do cartão: "azul", "verde", "laranja", "roxo", "rosa" ou "vermelho";
     link:   o endereço do jogo.
 
-  O botão "Compartilhar no Google Sala de Aula" do jogo, na área
-  "Para professores" do rodapé, é criado sozinho a partir desta lista.
+  O jogo também entra sozinho na lista "O que você quer enviar?" da área
+  "Para professores" do rodapé, para compartilhar no Google Sala de Aula.
 
   A ordem da lista é a ordem dos cartões na tela.
 */

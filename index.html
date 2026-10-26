@@ -32,18 +32,15 @@
     <details class="professores">
       <summary>Para professores</summary>
       <div class="professores-conteudo">
-        <p>Envie o menu ou um jogo para a sua turma no Google Sala de Aula. Cada botão abre numa nova aba.</p>
-        <!-- Os botões são criados por js/menu.js a partir da lista em js/jogos.js.
-             Os links abaixo só aparecem se o JavaScript estiver desligado. -->
-        <ul id="lista-compartilhar" class="compartilhar">
-          <li><a class="botao-compartilhar" href="https://classroom.google.com/share?url=https%3A%2F%2Fphisantos51-hub.github.io%2F" target="_blank" rel="noopener noreferrer">Compartilhar no Google Sala de Aula: Jogos do LED (menu inteiro)<span class="so-leitor"> (abre em nova aba)</span></a></li>
-          <li><a class="botao-compartilhar" href="https://classroom.google.com/share?url=https%3A%2F%2Fphisantos51-hub.github.io%2FJOGO-DE-ALFABETIZA-O%2F" target="_blank" rel="noopener noreferrer">Compartilhar no Google Sala de Aula: Robô Letrinha<span class="so-leitor"> (abre em nova aba)</span></a></li>
-          <li><a class="botao-compartilhar" href="https://classroom.google.com/share?url=https%3A%2F%2Fphisantos51-hub.github.io%2FJOGO-DE-ALFABETIZA-O%2Fmatematica%2F" target="_blank" rel="noopener noreferrer">Compartilhar no Google Sala de Aula: Feira do Robô<span class="so-leitor"> (abre em nova aba)</span></a></li>
-          <li><a class="botao-compartilhar" href="https://classroom.google.com/share?url=https%3A%2F%2Fphisantos51-hub.github.io%2Frobo-desenhista%2F" target="_blank" rel="noopener noreferrer">Compartilhar no Google Sala de Aula: Robô Desenhista<span class="so-leitor"> (abre em nova aba)</span></a></li>
-          <li><a class="botao-compartilhar" href="https://classroom.google.com/share?url=https%3A%2F%2Fphisantos51-hub.github.io%2Fcraques-do-led%2F" target="_blank" rel="noopener noreferrer">Compartilhar no Google Sala de Aula: Craques do LED<span class="so-leitor"> (abre em nova aba)</span></a></li>
-          <li><a class="botao-compartilhar" href="https://classroom.google.com/share?url=https%3A%2F%2Fphisantos51-hub.github.io%2Frobo-explorador%2F" target="_blank" rel="noopener noreferrer">Compartilhar no Google Sala de Aula: Robô Explorador<span class="so-leitor"> (abre em nova aba)</span></a></li>
-          <li><a class="botao-compartilhar" href="https://classroom.google.com/share?url=https%3A%2F%2Fphisantos51-hub.github.io%2Frota-digital%2F" target="_blank" rel="noopener noreferrer">Compartilhar no Google Sala de Aula: Rota Digital<span class="so-leitor"> (abre em nova aba)</span></a></li>
-        </ul>
+        <p>Escolha o menu inteiro ou um jogo e envie para a sua turma. O Google Sala de Aula abre numa nova aba.</p>
+        <!-- As opções da lista são criadas por js/menu.js a partir de js/jogos.js. -->
+        <div class="compartilhar">
+          <label for="escolha-compartilhar">O que você quer enviar?</label>
+          <select id="escolha-compartilhar">
+            <option value="https://phisantos51-hub.github.io/">Jogos do LED (menu inteiro)</option>
+          </select>
+          <a id="botao-compartilhar" class="botao-compartilhar" href="https://classroom.google.com/share?url=https%3A%2F%2Fphisantos51-hub.github.io%2F" target="_blank" rel="noopener noreferrer">Compartilhar no Google Sala de Aula<span class="so-leitor"> (abre em nova aba)</span></a>
+        </div>
       </div>
     </details>
     <p>Jogos criados pelo Professor Orientador de Educação Digital Pedro Inoue para o Laboratório de Educação Digital</p>

@@ -17,4 +17,4 @@ Abra `js/jogos.js`, copie um bloco `{ ... },`, cole no fim da lista e troque o n
 
 ## Para professores
 
-No rodapé há uma área fechada chamada **Para professores**. Ao abrir, aparecem os botões **Compartilhar no Google Sala de Aula**: um para o menu inteiro e um para cada jogo. Cada botão abre numa nova aba. Eles são criados sozinhos a partir da lista em `js/jogos.js`, então um jogo novo ganha o seu botão automaticamente. (Sem JavaScript, valem os links escritos no `index.html`, dentro de `<ul id="lista-compartilhar">`.)
+No rodapé há uma área fechada chamada **Para professores**. Ao abrir, aparece a lista **O que você quer enviar?** (o menu inteiro ou um dos jogos) e um único botão **Compartilhar no Google Sala de Aula**, que abre numa nova aba. A lista é montada sozinha a partir de `js/jogos.js`, então um jogo novo aparece nela automaticamente, sem aumentar o rodapé.
