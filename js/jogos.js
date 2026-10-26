@@ -53,5 +53,12 @@ const JOGOS = [
     icone: "🌱",
     cor: "rosa",
     link: "https://phisantos51-hub.github.io/robo-explorador/"
+  },
+  {
+    nome: "Rota Digital",
+    frase: "Dirija pela Cidade Digital e ganhe os 3 selos!",
+    icone: "🚗",
+    cor: "vermelho",
+    link: "https://phisantos51-hub.github.io/rota-digital/"
   }
 ];
