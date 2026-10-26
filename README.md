@@ -18,3 +18,7 @@ Abra `js/jogos.js`, copie um bloco `{ ... },`, cole no fim da lista e troque o n
 ## Para professores
 
 No rodapé há uma área fechada chamada **Para professores**. Ao abrir, aparece a lista **O que você quer enviar?** (o menu inteiro ou um dos jogos) e um único botão **Compartilhar no Google Sala de Aula**, que abre numa nova aba. A lista é montada sozinha a partir de `js/jogos.js`, então um jogo novo aparece nela automaticamente, sem aumentar o rodapé.
+
+## Versão dos arquivos (cache do navegador)
+
+No `index.html`, os arquivos de estilo e de JavaScript são chamados com `?v=` e um número (por exemplo, `css/estilo.css?v=4`). Sempre que `css/estilo.css`, `js/jogos.js` ou `js/menu.js` mudar, aumente esse número nas três linhas. Assim, os navegadores baixam a versão nova, em vez de usar a cópia antiga guardada.

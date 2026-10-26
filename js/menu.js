@@ -40,6 +40,7 @@
 (function () {
   const escolha = document.getElementById("escolha-compartilhar");
   const botao = document.getElementById("botao-compartilhar");
+  if (!escolha || !botao) return;
   escolha.textContent = "";
 
   const itens = [{ nome: "Jogos do LED (menu inteiro)", link: ENDERECO_MENU }].concat(JOGOS);

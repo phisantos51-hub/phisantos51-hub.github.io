@@ -205,9 +205,17 @@ main {
   border: 0;
 }
 
-/* Telas médias e grandes: dois cartões por linha. */
+/* Telas médias (tablet): dois cartões por linha. */
 @media (min-width: 640px) {
   .jogos { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Telas largas (notebook e computador): três cartões por linha. */
+@media (min-width: 1000px) {
+  main { max-width: 1200px; }
+  .jogos { grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+  .cartao { padding: 0.75rem; }
+  .frase { font-size: 1.2rem; line-height: 1.3; }
 }
 
 @media (max-width: 480px) {
