@@ -60,5 +60,12 @@ const JOGOS = [
     icone: "🚗",
     cor: "vermelho",
     link: "https://phisantos51-hub.github.io/rota-digital/"
+  },
+  {
+    nome: "Rali das Paisagens",
+    frase: "Corra pelas paisagens e descubra o mundo!",
+    icone: "🏎️",
+    cor: "verde",
+    link: "https://phisantos51-hub.github.io/rali-das-paisagens/"
   }
 ];
