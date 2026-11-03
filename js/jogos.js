@@ -7,6 +7,8 @@
     nome:   o nome do jogo, que aparece em letras grandes no cartão;
     frase:  uma frase curta dizendo o que a criança faz;
     icone:  um emoji grande que represente o jogo;
+    imagem: (opcional) uma imagem da pasta img/ para usar no lugar do emoji,
+            quando não existe um emoji adequado (por exemplo, "img/bau.svg");
     cor:    a cor do cartão: "azul", "verde", "laranja", "roxo", "rosa" ou "vermelho";
     link:   o endereço do jogo.
 
@@ -67,5 +69,13 @@ const JOGOS = [
     icone: "🏎️",
     cor: "verde",
     link: "https://phisantos51-hub.github.io/rali-das-paisagens/"
+  },
+  {
+    nome: "O Baú do Tempo",
+    frase: "Viaje no tempo e descubra brinquedos e brincadeiras!",
+    icone: "🧰",
+    imagem: "img/bau.svg",
+    cor: "laranja",
+    link: "https://phisantos51-hub.github.io/bau-do-tempo/"
   }
 ];

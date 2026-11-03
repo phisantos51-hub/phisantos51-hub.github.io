@@ -13,7 +13,7 @@ Endereço: https://phisantos51-hub.github.io/
 
 ## Como acrescentar um jogo
 
-Abra `js/jogos.js`, copie um bloco `{ ... },`, cole no fim da lista e troque o nome, a frase, o ícone (um emoji), a cor (`azul`, `verde`, `laranja`, `roxo`, `rosa` ou `vermelho`) e o link. Para quem usa o computador sem JavaScript, acrescente também o link no `index.html`, dentro de `<ul id="lista-jogos">`.
+Abra `js/jogos.js`, copie um bloco `{ ... },`, cole no fim da lista e troque o nome, a frase, o ícone (um emoji; se não houver emoji adequado, use `imagem` com um arquivo da pasta `img/`, como no Baú do Tempo), a cor (`azul`, `verde`, `laranja`, `roxo`, `rosa` ou `vermelho`) e o link. Para quem usa o computador sem JavaScript, acrescente também o link no `index.html`, dentro de `<ul id="lista-jogos">`.
 
 ## Para professores
 

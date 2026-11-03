@@ -90,6 +90,13 @@ main {
   line-height: 1;
 }
 
+/* Ícone em imagem (para jogos sem emoji adequado), do mesmo tamanho do emoji. */
+.icone img {
+  display: block;
+  width: 1.1em;
+  height: 1.1em;
+}
+
 .nome {
   font-size: clamp(1.6rem, 4.2vh, 2rem);
   font-weight: bold;

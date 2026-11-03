@@ -14,7 +14,15 @@
     const icone = document.createElement("span");
     icone.className = "icone";
     icone.setAttribute("aria-hidden", "true");
-    icone.textContent = jogo.icone;
+    if (jogo.imagem) {
+      // Imagem no lugar do emoji (quando não existe um emoji adequado).
+      const imagem = document.createElement("img");
+      imagem.src = jogo.imagem;
+      imagem.alt = "";
+      icone.append(imagem);
+    } else {
+      icone.textContent = jogo.icone;
+    }
 
     const nome = document.createElement("span");
     nome.className = "nome";
