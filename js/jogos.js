@@ -77,5 +77,12 @@ const JOGOS = [
     imagem: "img/bau.svg",
     cor: "laranja",
     link: "https://phisantos51-hub.github.io/bau-do-tempo/"
+  },
+  {
+    nome: "Corrida das Teclas",
+    frase: "Aprenda a usar o teclado correndo com seu carrinho!",
+    icone: "⌨️",
+    cor: "azul",
+    link: "https://phisantos51-hub.github.io/corrida-das-teclas/"
   }
 ];
