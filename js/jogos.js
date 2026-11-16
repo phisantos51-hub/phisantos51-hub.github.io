@@ -26,14 +26,14 @@ const JOGOS = [
     frase: "Programe o robô para formar palavras!",
     icone: "🤖",
     cor: "azul",
-    link: "https://phisantos51-hub.github.io/JOGO-DE-ALFABETIZA-O/"
+    link: "https://phisantos51-hub.github.io/robo-letrinha/"
   },
   {
     nome: "Feira do Robô",
     frase: "Ajude o robô a contar e vender na feira!",
     icone: "🍎",
     cor: "verde",
-    link: "https://phisantos51-hub.github.io/JOGO-DE-ALFABETIZA-O/matematica/"
+    link: "https://phisantos51-hub.github.io/robo-letrinha/matematica/"
   },
   {
     nome: "Robô Desenhista",
