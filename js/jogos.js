@@ -84,5 +84,13 @@ const JOGOS = [
     icone: "⌨️",
     cor: "azul",
     link: "https://phisantos51-hub.github.io/corrida-das-teclas/"
+  },
+  {
+    nome: "Álbum das Raízes",
+    frase: "Conheça pessoas, lugares e culturas que fazem nossa história!",
+    icone: "⭐",
+    imagem: "img/album.svg",
+    cor: "roxo",
+    link: "https://phisantos51-hub.github.io/album-das-raizes/"
   }
 ];

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Álbum de figurinhas">
+  <g stroke="#2b2118" stroke-width="3" stroke-linejoin="round">
+    <rect x="14" y="8" width="72" height="84" rx="8" fill="#e76f51"/>
+    <rect x="22" y="16" width="56" height="68" rx="4" fill="#fff6e5"/>
+    <rect x="28" y="22" width="18" height="22" rx="3" fill="#ffd166"/>
+    <rect x="54" y="22" width="18" height="22" rx="3" fill="#2a9d8f"/>
+    <rect x="28" y="54" width="18" height="22" rx="3" fill="#8ecae6"/>
+  </g>
+  <path d="M63 50 L66.5 58.5 L75.5 58.5 L68.5 64 L71 73 L63 67.5 L55 73 L57.5 64 L50.5 58.5 L59.5 58.5 Z" fill="#ffca28" stroke="#2b2118" stroke-width="2.5" stroke-linejoin="round"/>
+</svg>
