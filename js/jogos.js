@@ -92,5 +92,12 @@ const JOGOS = [
     imagem: "img/album.svg",
     cor: "roxo",
     link: "https://phisantos51-hub.github.io/album-das-raizes/"
+  },
+  {
+    nome: "Fábrica do Robô",
+    frase: "Monte robôs e resolva desafios de lógica!",
+    icone: "⚙️",
+    cor: "verde",
+    link: "https://phisantos51-hub.github.io/fabrica-do-robo/"
   }
 ];
