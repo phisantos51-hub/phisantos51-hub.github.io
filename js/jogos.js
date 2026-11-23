@@ -99,5 +99,12 @@ const JOGOS = [
     icone: "⚙️",
     cor: "verde",
     link: "https://phisantos51-hub.github.io/fabrica-do-robo/"
+  },
+  {
+    nome: "Estúdio do Robô",
+    frase: "Crie fotos, fotonovelas e notícias com o robô!",
+    icone: "🎙️",
+    cor: "laranja",
+    link: "https://phisantos51-hub.github.io/estudio-do-robo/"
   }
 ];
